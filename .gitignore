@@ -1,0 +1,17 @@
+*.dll
+*.exe
+*.o
+*.so
+*.a
+*.lib
+
+Makefile
+*.mk
+
+*.zip
+*.rar
+*.tar
+
+*.log
+
+build
