@@ -4,7 +4,7 @@
 int main(int argc, char** argv) {
     sandbox::check_args(argc, argv);
 
-    cv::imshow("show_image", sandbox::load_image(argv[1]));
+    cv::imshow("transform_image", sandbox::load_image(argv[1]));
 
     cv::waitKey(0);
 

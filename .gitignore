@@ -15,3 +15,4 @@ Makefile
 *.log
 
 build
+.vscode
