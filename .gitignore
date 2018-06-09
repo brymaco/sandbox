@@ -16,3 +16,15 @@ Makefile
 
 build
 .vscode
+
+VS
+*.sln
+*.filters
+*.vcxproj
+*.user
+*.tlog
+*.pdb
+*.obj
+*.idb
+*.pch
+*.ilk
