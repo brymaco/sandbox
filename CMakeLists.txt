@@ -9,6 +9,10 @@ add_executable(show_image show_image.cpp)
 project(gray_image)
 add_executable(gray_image gray_image.cpp)
 
+project(kernel_filter)
+add_executable(kernel_filter kernel_filter.cpp)
+
 find_package(OpenCV REQUIRED)
 target_link_libraries(show_image PRIVATE ${OpenCV_LIBS})
 target_link_libraries(gray_image PRIVATE ${OpenCV_LIBS})
+target_link_libraries(kernel_filter PRIVATE ${OpenCV_LIBS})
